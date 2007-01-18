@@ -1,15 +1,17 @@
 Summary:	Distributed rainbow table generation client
 Summary(pl):	Klient projektu rozproszonego generowania tablic rainbow
 Name:		distrrtgen
-Version:	2.0
+Version:	2.1
 Release:	0.1
 License:	As-is
 Group:		Applications
 Source0:	http://www.freerainbowtables.com/distrrtgen/client/%{name}-%{version}-src.zip
-# Source0-md5:	f9c342cd4d822911352cfa066c5d1a42
+# Source0-md5:	f1320b2569200d5377af205cbdd9773f
+Patch0:		%{name}-Makefile.patch
 URL:		http://www.freerainbowtables.com/
 BuildRequires:	libstdc++-devel
 BuildRequires:	openssl-devel
+BuildRequires:	unzip
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -28,6 +30,7 @@ mo¿liwe.
 
 %prep
 %setup -q -c
+%patch0 -p1
 
 %build
 %{__make} \
