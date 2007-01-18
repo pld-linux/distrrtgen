@@ -1,0 +1,11 @@
+--- distrrtgen-2.1/Makefile~	2007-01-07 19:27:28.000000000 +0100
++++ distrrtgen-2.1/Makefile	2007-01-18 16:56:50.000000000 +0100
+@@ -12,7 +12,7 @@
+ all: distrrtgen
+ 
+ distrrtgen: $(SOURCES)
+-		$(CXX) $(CXXFLAGS) $(SOURCES) $(LIBS) -o3 distrrtgen
++		$(CXX) $(CXXFLAGS) $(SOURCES) $(LIBS) -o distrrtgen
+ 
+ install: distrrtgen configure
+ 		mkdir -p $(PREFIX)
