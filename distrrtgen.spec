@@ -6,8 +6,7 @@ Release:	0.1
 License:	As-is
 Group:		Applications
 Source0:	http://www.freerainbowtables.com/distrrtgen/client/%{name}-%{version}-src.zip
-# Source0-md5:	f1320b2569200d5377af205cbdd9773f
-Patch0:		%{name}-Makefile.patch
+# Source0-md5:	26e6d85a988dea8f08a9362fa94fd763
 URL:		http://www.freerainbowtables.com/
 BuildRequires:	libstdc++-devel
 BuildRequires:	openssl-devel
@@ -30,7 +29,6 @@ mo¿liwe.
 
 %prep
 %setup -q -c
-%patch0 -p1
 
 %build
 %{__make} \
