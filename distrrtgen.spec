@@ -1,5 +1,5 @@
 Summary:	Distributed rainbow table generation client
-Summary(pl):	Klient projektu rozproszonego generowania tablic rainbow
+Summary(pl.UTF-8):   Klient projektu rozproszonego generowania tablic rainbow
 Name:		distrrtgen
 Version:	2.1
 Release:	0.1
@@ -20,12 +20,12 @@ Tables as much or as little as suited them, and without having to
 create whole particular tables. Distributed computing makes this
 possible.
 
-%description -l pl
+%description -l pl.UTF-8
 DistrRTgen to klient projektu Distributed Rainbow Table Generation.
-Celem jest u³atwienie spo³eczno¶ci sposobów na wsparcie projektu
-poprzez generowanie tablic rainbow w sposób im wygodny, bez potrzeby
-tworzenia kompletnych tablic. Liczenie rozproszone sprawia, ¿e jest to
-mo¿liwe.
+Celem jest uÅ‚atwienie spoÅ‚ecznoÅ›ci sposobÃ³w na wsparcie projektu
+poprzez generowanie tablic rainbow w sposÃ³b im wygodny, bez potrzeby
+tworzenia kompletnych tablic. Liczenie rozproszone sprawia, Å¼e jest to
+moÅ¼liwe.
 
 %prep
 %setup -q -c
