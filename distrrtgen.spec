@@ -1,5 +1,5 @@
 Summary:	Distributed rainbow table generation client
-Summary(pl.UTF-8):   Klient projektu rozproszonego generowania tablic rainbow
+Summary(pl.UTF-8):	Klient projektu rozproszonego generowania tablic rainbow
 Name:		distrrtgen
 Version:	2.1
 Release:	0.1
